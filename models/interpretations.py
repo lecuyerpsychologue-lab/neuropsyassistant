@@ -3,13 +3,13 @@ Algorithmes d'interprétation sémantique des scores.
 """
 
 from typing import Tuple, Optional
+from models.scores import ScoreType
 from config.constants import (
     STANDARD_CLASSIFICATIONS,
     SCALAIRE_CLASSIFICATIONS,
     T_SCORE_CLASSIFICATIONS,
     INTERPRETATIONS_SEMANTIQUES,
-    INTERPRETATIONS_T_SCORE,
-    ScoreType
+    INTERPRETATIONS_T_SCORE
 )
 
 

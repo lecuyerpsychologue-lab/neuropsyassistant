@@ -544,7 +544,8 @@ class SemanticEngine:
         
         lines = ["## 8. CONCLUSION", ""]
         
-        lines.append(f"L'évaluation neuropsychologique de {self.patient.prenom or 'l\\'enfant'} "
+        prenom = self.patient.prenom if self.patient.prenom else "l'enfant"
+        lines.append(f"L'évaluation neuropsychologique de {prenom} "
                     "met en évidence un profil cognitif et comportemental nuancé, "
                     "avec des forces sur lesquelles s'appuyer et des fragilités nécessitant un accompagnement adapté.")
         lines.append("")

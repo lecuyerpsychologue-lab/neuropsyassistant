@@ -7,13 +7,6 @@ from enum import Enum
 from typing import Dict, List, Tuple
 
 
-class ScoreType(Enum):
-    """Types de scores psychométriques."""
-    STANDARD = "standard"  # M=100, ET=15
-    SCALAIRE = "scalaire"  # M=10, ET=3
-    T_SCORE = "t_score"    # M=50, ET=10
-
-
 # Classifications des notes standard (M=100, ET=15)
 STANDARD_CLASSIFICATIONS = [
     (130, float('inf'), "Très Supérieur", ">98"),
